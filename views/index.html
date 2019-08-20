@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Catalog</title>
+
+
+  <!--- Styles --->
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/app.css">
+  <link rel="shortcut icon" type="image/x-icon" href="images/caterus-logo48px.ico">
+</head>
+
+<body>
+  <div class="container">
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <a class="navbar-brand" href="#">CaterUs</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Admin</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About Us</a>
+          </li>
+        </ul>
+        <div class="dropdown">
+          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Category
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="#" catName="Shawarma">Shawarma</a>
+            <a class="dropdown-item" href="#" catName="Sushi">Sushi</a>
+            <a class="dropdown-item" href="#" catName="Empanadas">Empanadas</a>
+            <a class="dropdown-item" href="#" catName="Salads">Salads</a>
+            <a class="dropdown-item" href="#" catName="Arepas">Arepas</a>
+          </div>
+        </div>
+        <form class="form-inline mt-2 mt-md-0">
+          <input id="txtSearch" class="form-control mr-sm-2" type="search" placeholder="CaterUs Search" aria-label="Search">
+          <button id="btnSearch" class="btn btn-outline-primary my-2 my-sm-0" type="button">Search</button>
+        </form>
+      </div>
+
+    </nav>
+
+
+    <div class="container-fluid">
+      <div class="container">
+        <div id="catalog">
+
+        </div>
+      </div>
+
+    </div>
+
+
+  </div>
+
+
+
+
+
+
+
+  <!--Scripts -->
+  <script src="script.js/jquery-3.4.1.min.js"></script>
+  <script src="script.js/bootstrap.js"></script>
+  <script src="script.js/app.js"></script>
+
+</body>
+
+</html>
+<!--create nav bar -->

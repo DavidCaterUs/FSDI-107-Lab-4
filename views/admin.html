@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Admin Page for My Store </title>
+
+
+  <!--- Styles --->
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/admin.css">
+
+  <link rel="shortcut icon" type="image/x-icon" href="images/caterus-logo48px.ico">
+</head>
+
+<body>
+
+  <div class="container">
+    <h1>Registered Items</h1>
+
+    <!---
+    title
+    description
+    price
+    category
+    image
+    -->
+
+    <form>
+      <div class="form-group row">
+        <label for="inputEmail3" class="col-sm-2 col-form-label">Title</label>
+        <div class="col-sm-10">
+          <input type="text" class="form-control" id="txtTitle" placeholder="Title">
+        </div>
+      </div>
+      <div class="form-group row">
+        <label for="inputPassword3" class="col-sm-2 col-form-label">Description</label>
+        <div class="col-sm-10">
+          <input type="text" class="form-control" id="txtDescription" placeholder="Description">
+        </div>
+      </div>
+      <div class="form-group row">
+        <label for="inputEmail3" class="col-sm-2 col-form-label">Price</label>
+        <div class="col-sm-10">
+          <input type="number" class="form-control" id="txtPrice" placeholder="Price">
+        </div>
+      </div>
+      <div class="form-group row">
+        <label for="inputPassword3" class="col-sm-2 col-form-label">Category</label>
+        <div class="col-sm-10">
+          <select class="form-control" id="selCategory" >
+            <option>Shawarma</option>
+            <option>Sushi</option>
+            <option>Empanadas</option>
+            <option>Salads</option>
+            <option>Arepas</option>
+          </select>
+        </div>
+      </div>
+      <div class="form-group row">
+        <label for="inputPassword3" class="col-sm-2 col-form-label">Image</label>
+        <div class="col-sm-10">
+          <input type="text" class="form-control" id="txtImage" placeholder="Image">
+        </div>
+      </div>
+
+    </form>
+    <input type="button" id="btnSave" class="btn btn-primary" value="Save Item">
+  </div>
+
+
+
+
+
+
+
+
+
+  <!--Scripts -->
+  <script src="script.js/jquery-3.4.1.min.js"></script>
+  <script src="script.js/bootstrap.js"></script>
+  <script src="script.js/admin.js"></script>
+</body>
+
+</html>
